@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="OrganizationDataSet" targetNamespace="http://tempuri.org/OrganizationDataSet.xsd" xmlns:mstns="http://tempuri.org/OrganizationDataSet.xsd" xmlns="http://tempuri.org/OrganizationDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="OrganizationDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="OrganizationDataSet" msprop:Generator_DataSetName="OrganizationDataSet" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="AdresTable" msprop:Generator_UserTableName="AdresTable" msprop:Generator_RowDeletedName="AdresTableRowDeleted" msprop:Generator_RowChangedName="AdresTableRowChanged" msprop:Generator_RowClassName="AdresTableRow" msprop:Generator_RowChangingName="AdresTableRowChanging" msprop:Generator_RowEvArgName="AdresTableRowChangeEvent" msprop:Generator_RowEvHandlerName="AdresTableRowChangeEventHandler" msprop:Generator_TableClassName="AdresTableDataTable" msprop:Generator_TableVarName="tableAdresTable" msprop:Generator_RowDeletingName="AdresTableRowDeleting" msprop:Generator_TablePropName="AdresTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="tna" msprop:Generator_UserColumnName="tna" msprop:Generator_ColumnVarNameInTable="columntna" msprop:Generator_ColumnPropNameInRow="tna" msprop:Generator_ColumnPropNameInTable="tnaColumn" type="xs:int" />
+              <xs:element name="fio" msprop:Generator_UserColumnName="fio" msprop:Generator_ColumnVarNameInTable="columnfio" msprop:Generator_ColumnPropNameInRow="fio" msprop:Generator_ColumnPropNameInTable="fioColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="44" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="kodstran" msprop:Generator_UserColumnName="kodstran" msprop:Generator_ColumnVarNameInTable="columnkodstran" msprop:Generator_ColumnPropNameInRow="kodstran" msprop:Generator_ColumnPropNameInTable="kodstranColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="kodreg" msprop:Generator_UserColumnName="kodreg" msprop:Generator_ColumnVarNameInTable="columnkodreg" msprop:Generator_ColumnPropNameInRow="kodreg" msprop:Generator_ColumnPropNameInTable="kodregColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="index" msprop:Generator_UserColumnName="index" msprop:Generator_ColumnVarNameInTable="columnindex" msprop:Generator_ColumnPropNameInRow="index" msprop:Generator_ColumnPropNameInTable="indexColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="gorod" msprop:Generator_UserColumnName="gorod" msprop:Generator_ColumnVarNameInTable="columngorod" msprop:Generator_ColumnPropNameInRow="gorod" msprop:Generator_ColumnPropNameInTable="gorodColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="n_punkt" msprop:Generator_UserColumnName="n_punkt" msprop:Generator_ColumnVarNameInTable="columnn_punkt" msprop:Generator_ColumnPropNameInRow="n_punkt" msprop:Generator_ColumnPropNameInTable="n_punktColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="raion" msprop:Generator_UserColumnName="raion" msprop:Generator_ColumnVarNameInTable="columnraion" msprop:Generator_ColumnPropNameInRow="raion" msprop:Generator_ColumnPropNameInTable="raionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ulica" msprop:Generator_UserColumnName="ulica" msprop:Generator_ColumnVarNameInTable="columnulica" msprop:Generator_ColumnPropNameInRow="ulica" msprop:Generator_ColumnPropNameInTable="ulicaColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="dom" msprop:Generator_UserColumnName="dom" msprop:Generator_ColumnVarNameInTable="columndom" msprop:Generator_ColumnPropNameInRow="dom" msprop:Generator_ColumnPropNameInTable="domColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="7" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="korp" msprop:Generator_UserColumnName="korp" msprop:Generator_ColumnVarNameInTable="columnkorp" msprop:Generator_ColumnPropNameInRow="korp" msprop:Generator_ColumnPropNameInTable="korpColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="kvart" msprop:Generator_UserColumnName="kvart" msprop:Generator_ColumnVarNameInTable="columnkvart" msprop:Generator_ColumnPropNameInRow="kvart" msprop:Generator_ColumnPropNameInTable="kvartColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="OrgInfoTable" msprop:Generator_UserTableName="OrgInfoTable" msprop:Generator_RowDeletedName="OrgInfoTableRowDeleted" msprop:Generator_RowChangedName="OrgInfoTableRowChanged" msprop:Generator_RowClassName="OrgInfoTableRow" msprop:Generator_RowChangingName="OrgInfoTableRowChanging" msprop:Generator_RowEvArgName="OrgInfoTableRowChangeEvent" msprop:Generator_RowEvHandlerName="OrgInfoTableRowChangeEventHandler" msprop:Generator_TableClassName="OrgInfoTableDataTable" msprop:Generator_TableVarName="tableOrgInfoTable" msprop:Generator_RowDeletingName="OrgInfoTableRowDeleting" msprop:Generator_TablePropName="OrgInfoTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_UserColumnName="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="title" msprop:Generator_UserColumnName="title" msprop:Generator_ColumnVarNameInTable="columntitle" msprop:Generator_ColumnPropNameInRow="title" msprop:Generator_ColumnPropNameInTable="titleColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ext" msprop:Generator_UserColumnName="ext" msprop:Generator_ColumnVarNameInTable="columnext" msprop:Generator_ColumnPropNameInRow="ext" msprop:Generator_ColumnPropNameInTable="extColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="curmonth" msprop:Generator_UserColumnName="curmonth" msprop:Generator_ColumnVarNameInTable="columncurmonth" msprop:Generator_ColumnPropNameInRow="curmonth" msprop:Generator_ColumnPropNameInTable="curmonthColumn" type="xs:int" default="1" minOccurs="0" />
+              <xs:element name="curyear" msprop:Generator_UserColumnName="curyear" msprop:Generator_ColumnVarNameInTable="columncuryear" msprop:Generator_ColumnPropNameInRow="curyear" msprop:Generator_ColumnPropNameInTable="curyearColumn" type="xs:int" default="2000" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:AdresTable" />
+      <xs:field xpath="mstns:tna" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

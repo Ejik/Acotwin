@@ -1,0 +1,9 @@
+﻿<SolutionProfile xmlns="http://schemas.microsoft.com/pag/cab-profile">
+  <Modules>
+    <ModuleInfo AssemblyFile="AboutModule.dll" />
+    <!--<ModuleInfo AssemblyFile="ChkAddrModule.dll" />-->
+    <!--<ModuleInfo AssemblyFile="Exchange1CModule.dll" />-->
+    <ModuleInfo AssemblyFile="InfoViewModule.dll" />    
+    <ModuleInfo AssemblyFile="SettingsModule.dll" />
+  </Modules>
+</SolutionProfile>

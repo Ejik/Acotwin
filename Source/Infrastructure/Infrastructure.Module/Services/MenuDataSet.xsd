@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="MainMenuDataSet" targetNamespace="http://tempuri.org/MainMenuDataSet.xsd" xmlns:mstns="http://tempuri.org/MainMenuDataSet.xsd" xmlns="http://tempuri.org/MainMenuDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="MainMenuDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="MainMenuDataSet" msprop:Generator_UserDSName="MainMenuDataSet" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="_mainMenu" msprop:Generator_UserTableName="_mainMenu" msprop:Generator_RowDeletedName="_mainMenuRowDeleted" msprop:Generator_TableClassName="_mainMenuDataTable" msprop:Generator_RowChangedName="_mainMenuRowChanged" msprop:Generator_RowClassName="_mainMenuRow" msprop:Generator_RowChangingName="_mainMenuRowChanging" msprop:Generator_RowEvArgName="_mainMenuRowChangeEvent" msprop:Generator_RowEvHandlerName="_mainMenuRowChangeEventHandler" msprop:Generator_TablePropName="_mainMenu" msprop:Generator_TableVarName="table_mainMenu" msprop:Generator_RowDeletingName="_mainMenuRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInTable="IDColumn" type="xs:string" />
+              <xs:element name="NAME" msprop:Generator_UserColumnName="NAME" msprop:Generator_ColumnPropNameInRow="NAME" msprop:Generator_ColumnVarNameInTable="columnNAME" msprop:Generator_ColumnPropNameInTable="NAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TIP" msprop:Generator_UserColumnName="TIP" msprop:Generator_ColumnPropNameInRow="TIP" msprop:Generator_ColumnVarNameInTable="columnTIP" msprop:Generator_ColumnPropNameInTable="TIPColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CMD1" msprop:Generator_UserColumnName="CMD1" msprop:Generator_ColumnPropNameInRow="CMD1" msprop:Generator_ColumnVarNameInTable="columnCMD1" msprop:Generator_ColumnPropNameInTable="CMD1Column" type="xs:string" minOccurs="0" />
+              <xs:element name="CMD2" msprop:Generator_UserColumnName="CMD2" msprop:Generator_ColumnPropNameInRow="CMD2" msprop:Generator_ColumnVarNameInTable="columnCMD2" msprop:Generator_ColumnPropNameInTable="CMD2Column" type="xs:string" minOccurs="0" />
+              <xs:element name="CMD3" msprop:Generator_UserColumnName="CMD3" msprop:Generator_ColumnPropNameInRow="CMD3" msprop:Generator_ColumnVarNameInTable="columnCMD3" msprop:Generator_ColumnPropNameInTable="CMD3Column" type="xs:string" minOccurs="0" />
+              <xs:element name="CMD4" msprop:Generator_UserColumnName="CMD4" msprop:Generator_ColumnPropNameInRow="CMD4" msprop:Generator_ColumnVarNameInTable="columnCMD4" msprop:Generator_ColumnPropNameInTable="CMD4Column" type="xs:string" minOccurs="0" />
+              <xs:element name="CMD5" msprop:Generator_UserColumnName="CMD5" msprop:Generator_ColumnPropNameInRow="CMD5" msprop:Generator_ColumnVarNameInTable="columnCMD5" msprop:Generator_ColumnPropNameInTable="CMD5Column" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="_mainMenuKey" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:_mainMenu" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
