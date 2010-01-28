@@ -92,7 +92,7 @@ namespace ACOT.Infrastructure.Module.Services
 
                     // Установки          
                     //AddNewParentToolStripMenuElement("&УСТАНОВКИ", "00009", "", "Установки программы", UIExtensionSiteNames.MainMenu);
-                    AddNewToolStripMenuElement("&УСТАНОВКИ", "00009", "", "Установки программы", UIExtensionSiteNames.MainMenu);
+                    AddNewToolStripMenuElement("&УСТАНОВКИ", "000099", "", "Установки программы", UIExtensionSiteNames.MainMenu);
 
                     // Экран приветствия
                     //AddNewToolStripMenuElement("&Экран приветствия", "00091", CommandNames.SplashShow, "Показать заставку", UIExtensionSiteNames.SettingsMenu);
@@ -101,9 +101,9 @@ namespace ACOT.Infrastructure.Module.Services
                     //AddNewToolStripMenuElement("&Обмен с 1С", "00091", CommandNames.Exchange1CDlgShow, "Обмен с 1С", UIExtensionSiteNames.SettingsMenu);
                     
                     // Настройки
-                    AddNewToolStripMenuElement("&Настройка", "00092", CommandNames.SettingsShow, "Настройки программы", UIExtensionSiteNames.SettingsMenu);
+                    AddNewToolStripMenuElement("&Настройка", "000992", CommandNames.SettingsShow, "Настройки программы", UIExtensionSiteNames.SettingsMenu);
                     // О программе
-                    AddNewToolStripMenuElement("&О программе...", "00093", CommandNames.AboutBoxShow, "О программе", UIExtensionSiteNames.SettingsMenu);
+                    AddNewToolStripMenuElement("&О программе...", "000993", CommandNames.AboutBoxShow, "О программе", UIExtensionSiteNames.SettingsMenu);
 
                 }
                 else
