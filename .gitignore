@@ -4,5 +4,6 @@ obj/
 *.suo
 *.pdb
 Setup/
+bin/
 *.cache
 
