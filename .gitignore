@@ -3,6 +3,6 @@ obj/
 .svn/
 *.suo
 *.pdb
-setup.exe
+Setup/
 *.cache
 
